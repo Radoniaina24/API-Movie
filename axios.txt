@@ -1,0 +1,14 @@
+ /*  axios.get(`http://www.omdbapi.com/?apikey=${KEY}&s=interstellar`)
+            .then((res) => res.data)
+            .then((data) => setMovies(data.Search))
+            .catch((err)=> console.log(err))*/
+      /*  async function getAllMovies() {
+            try {
+                const response = await axios.get(`http://www.omdbapi.com/?apikey=${KEY}&s=interstellar`);
+               setMovies(response.data.Search);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        getAllMovies() */
